@@ -1,7 +1,7 @@
 class Arigram < Formula
   include Language::Python::Virtualenv
 
-  desc "Terminal telegram client"
+  desc "A fork of tg -- a hackable telegram TUI client"
   homepage "https://github.com/TruncatedDinosour/arigram"
   url "https://github.com/TruncatedDinosour/arigram/archive/refs/tags/v0.1.1-devel.tar.gz"
   sha256 "ee7a44e5b3f0208698eec7f15c4b4104356db52f3dcb41a11cfb3eab9193c748"
@@ -11,8 +11,8 @@ class Arigram < Formula
   depends_on "tdlib"
 
   resource "python-telegram-patched" do
-    url "https://github.com/paul-nameless/python-telegram/archive/refs/tags/0.14.0-patched.tar.gz"
-    sha256 "7f3af4cb722f37bd65b0a49da448b7d26afa7f2de761aed4828018155e2e78b4"
+    url "https://github.com/TruncatedDinosour/python-telegram/archive/refs/tags/0.15.0-patched.tar.gz"
+    sha256 "be66bd1c70018d6f0dacd33e027e8b80ff96ca50cabca410ea1946bd82cc78f7"
   end
 
   def install
