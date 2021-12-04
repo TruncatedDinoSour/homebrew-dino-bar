@@ -22,7 +22,7 @@ class Arigram < Formula
   test do
     require "pty"
 
-    PTY.spawn(bin/"tg") do |r, w, _pid|
+    PTY.spawn(bin/"arigram") do |r, w, _pid|
       assert_match "Enter your phone", r.gets
       w.close
       r.close
