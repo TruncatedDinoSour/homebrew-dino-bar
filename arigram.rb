@@ -3,8 +3,8 @@ class Arigram < Formula
 
   desc "Terminal telegram client"
   homepage "https://github.com/TruncatedDinosour/arigram"
-  url "https://github.com/TruncatedDinosour/arigram/archive/refs/tags/v0.1.0.tar.gz"
-  sha256 "2ba72ebc55b83a48633f10ad83f581bdf30c1e7f68f4342b4fd000da5cb95d2a"
+  url "https://github.com/TruncatedDinosour/arigram/archive/refs/tags/v0.1.1-devel.tar.gz"
+  sha256 "ee7a44e5b3f0208698eec7f15c4b4104356db52f3dcb41a11cfb3eab9193c748"
   license "Unlicense"
 
   depends_on "python@3.9"
