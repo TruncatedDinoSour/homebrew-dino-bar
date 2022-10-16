@@ -3,8 +3,8 @@ class Arigram < Formula
 
   desc "A fork of tg -- a hackable telegram TUI client"
   homepage "https://github.com/TruncatedDinosour/arigram"
-  url "https://github.com/TruncatedDinosour/arigram/archive/refs/tags/v0.1.1-devel.tar.gz"
-  sha256 "ee7a44e5b3f0208698eec7f15c4b4104356db52f3dcb41a11cfb3eab9193c748"
+  url "https://github.com/TruncatedDinosour/arigram/archive/refs/tags/v0.1.3.tar.gz"
+  sha256 "101a89fd7c1f1343052a9f138670acc4dd57f070440258aaaac2d37d85435f75"
   license "Unlicense"
 
   depends_on "python@3.9"
